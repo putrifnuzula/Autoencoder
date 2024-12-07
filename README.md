@@ -7,3 +7,4 @@ Build an autoencoder model to learn, compress, and reconstruct the images of pul
 - The base model consists of an encoder that compresses input images into a 128-dimensional latent space and a decoder to reconstruct the compressed images. The model is compiled utilizing the adam optimizer.
 - Modifies the model to use transposed convolutional layers (Conv2Dtranspose) in the decoder model for improving the reconstruction images; also adds dropout to avoid overfitting.
 - Evaluate the model using SSIM to determine whether the new images are similar compared to the input.
+  
