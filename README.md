@@ -1,6 +1,6 @@
 # Autoencoder
 Build an autoencoder model to learn, compress, and reconstruct the images of pullovers and dresses.
-# Objective:
+# Overview:
 - Reconstruct images of pullover and dress using dimension reduction.
 - Data preprocessing: Normalize the pixel values and reshape into a 4D array for each image sized as (28, 28, 1).
 - Data concatenation: merged both train and test data for a unified split into 80% training, 10% validation, and 10% test sets.
